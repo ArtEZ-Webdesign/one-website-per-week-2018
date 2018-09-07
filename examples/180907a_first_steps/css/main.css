@@ -1,0 +1,31 @@
+body {
+	font-family: "Helvetica";
+	background-color: #0000ff;
+	color: #ff0000;
+}
+
+h1 {
+	color: #ffff00;
+}
+
+.bHeader {
+	font-weight: normal;
+	color: #ff00ff;
+}
+
+.lorem {
+	text-decoration: underline;
+	color: #c0ffee;
+}
+
+.ipsum {
+	font-weight: bold;
+}
+
+a {
+	color: #ff0000;
+}
+
+.weird {
+	color: #00ff00;
+}

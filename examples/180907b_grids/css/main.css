@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	font-family: "Helvetica";
+}
+
+.container {
+	/* background-color: blue; */
+
+	width: 100%;
+	max-width: 800px;
+
+	margin: 0 auto;
+	/* shorthand for: */
+	/* margin: 0 auto 0 auto; */
+	/* shorthand for: */
+	/* margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto; */
+
+	display: grid;
+	grid-template-columns: 67% 33%;
+	grid-template-rows: 200px auto;
+	grid-template-areas:
+	'header header'
+	'features opinions';
+}
+
+.header {
+	/* background-color: red; */
+	grid-area: header;
+}
+
+.logo {
+	/* background-color: green; */
+	height: 160px;
+}
+
+.menu {
+	/* background-color: purple; */
+	height: 40px;
+}
+
+.menu ul {
+	/* background-color: red; */
+	display: grid;
+	grid-template-columns: 33% 33% 34%;
+	grid-template-rows: 1;
+	text-align: center;
+	height: 100%;
+	line-height: 40px;
+}
+
+.features {
+	/* background-color: lightgreen; */
+	grid-area: features;
+}
+
+.opinions {
+	/* background-color: fuchsia; */
+	grid-area: opinions;
+}
+
+h1 {
+	font-size: 72px;
+	text-align: center;
+	line-height: 160px;
+	font-family: "Times";
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+
+.features,
+.opinions {
+	padding: 16px;
+}
