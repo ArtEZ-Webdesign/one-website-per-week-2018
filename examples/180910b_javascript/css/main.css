@@ -1,0 +1,38 @@
+html,
+body {
+	height: 100%;
+	font-family: Helvetica;
+}
+
+.container {
+	height: 100%;
+	transition: background-color 1s linear;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.buttons {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	margin-left: -50px;
+	margin-top: -125px;
+}
+
+.button {
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 50px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
