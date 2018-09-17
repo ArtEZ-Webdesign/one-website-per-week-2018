@@ -1,0 +1,17 @@
+
+html, body  {
+	cursor: none;
+}
+body {
+	transition: background-color .2s ease;
+}
+
+.square {
+	position: absolute;
+
+	width: 256px;
+	height: 130px;
+
+	background-image: url('../img/dvd.png');
+	background-size: 100%;
+}
